@@ -149,3 +149,24 @@ img{
            
         }
     }
+
+    @media only  screen and (max-width: 1024px) {
+        .phone, .mail, .location{
+         width: 35%;
+         }
+
+         body{
+            padding: 70px  100px;
+            margin: 10px;
+           }
+
+        .leftmap, .rightinput, form, #message {
+               width: 100%;
+               flex-basis: 100%;
+             
+                }
+      
+        }
+       
+           
+    
